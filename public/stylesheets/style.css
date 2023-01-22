@@ -198,6 +198,22 @@ h2 {
   color: #ffffff;
 }
 
+.table-dark {
+  width: max-content,
+}
+
+.message {
+  color: #de463b;
+  text-align: end;
+  font-size: 20px;
+}
+
+.Texmod {
+  font-size: 20px;
+  margin: 3px;
+}
+
+
 @media screen and (min-width: 50px) and (max-width: 800px) {
 
   /* Inicio Head @media */
@@ -216,3 +232,4 @@ h2 {
 
   /* Fin Head @media */
 }
+

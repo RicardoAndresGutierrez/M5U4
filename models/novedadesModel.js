@@ -40,4 +40,5 @@ async function modificarNovedadesById(obj, id) {
     }
 }
 
+
 module.exports = { getNovedades, insertNovedades, deleteNovedadesById, getNovedadById, modificarNovedadesById }

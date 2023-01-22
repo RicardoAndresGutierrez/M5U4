@@ -29,7 +29,7 @@ router.post('/agregar', async (req, res, next) => {
             res.render('admin/agregar', {
                 layout: 'admin/layout',
                 error: true,
-                message: 'Todos los campos son requeridos'
+                message: 'Todos los campos son requeridos!'
             })
         }
     } catch (error) {
@@ -37,7 +37,7 @@ router.post('/agregar', async (req, res, next) => {
         res.render('admin/agregar', {
             layout: 'admin/layout',
             error: true,
-            message: 'No se cargo la Noticia/Novedad'
+            message: 'No se cargo la Noticia/Novedad!'
         })
     }
 })
