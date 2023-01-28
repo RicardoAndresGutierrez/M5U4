@@ -21,6 +21,7 @@
                     <tr class="bg-warning">
                         {{!-- <th scope="col">#</th> --}}
                         <th scope="col">Titulo</th>
+                        <th scope="col">imagen</th>
                         <th class="text-center"></th>
                         <th class="text-end">Acciones</th>
                     </tr>
@@ -28,6 +29,7 @@
                 <tbody>
                     {{#each novedades}}
                     <tr>
+                        <td>{{{imagen}}}</td>
                         <td>{{titulo}}</td>
                         <td>{{cuerpo}}</td>
                         <td class="text-end">
